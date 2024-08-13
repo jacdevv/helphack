@@ -40,8 +40,8 @@ export default function Home() {
             <AccordionTrigger>Who can join?</AccordionTrigger>
             <AccordionContent>
               Anybody from secondary to high school! This competition is also to
-              any skills area & level. Most projects aren't coding so artists,
-              videographers, etc are invited!
+              any skills area & level. Most projects aren&apos;t coding so
+              artists, videographers, etc are invited!
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
@@ -53,7 +53,8 @@ export default function Home() {
           <AccordionItem value="item-3">
             <AccordionTrigger>How much spots are there?</AccordionTrigger>
             <AccordionContent>
-              We're still deciding how much spots, but its between 50 to 100.
+              We&apos;re still deciding how much spots, but its between 50 to
+              100.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
