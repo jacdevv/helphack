@@ -13,7 +13,7 @@ export default function Home() {
     <main className="mb-20">
       <div className="h-screen flex justify-center items-center flex-col space-y-2 my-2">
         <Image
-          src="/background2.jpg "
+          src="https://utfs.io/f/61c732c6-2b2a-4a1d-a82b-6349c5710e89-rbcs78.jpg"
           alt="NASA Space Apps Surabaya"
           width="1920"
           height="200"
