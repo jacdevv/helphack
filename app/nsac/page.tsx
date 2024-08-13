@@ -27,7 +27,7 @@ export default function Home() {
           Compete for a prize pool of IDR 10,000,000
         </div>
         <div className="border border-blue-600 rounded-b-lg p-3 text-2xl">
-          <p>5-6 October • 10AM - 6AM • SIS Surabaya • FREE</p>
+          <p>5-6 October • 10AM - 6PM • SIS Surabaya • FREE</p>
         </div>
         <Link href="https://forms.gle/xggVjcUktAzfWbBc6">
           {" "}
