@@ -38,7 +38,7 @@ export default function Home() {
         <div className="w-2/3 mx-auto text-5xl font-bold py-48 flex flex-col space-y-4">
           <div className="h-[500px] flex flex-col space-y-6">
             <p>
-              We empower students' future <br />
+              We empower students&apos; future <br />
               through software
             </p>
             <Link href="#hackathon">
