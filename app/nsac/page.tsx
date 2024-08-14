@@ -34,6 +34,32 @@ export default function Home() {
           <Button>Register Now</Button>
         </Link>
       </div>
+      <div className="max-w-3xl h-[300px] border rounded-lg border-blue-600 mx-auto mb-20 grid grid-cols-2 p-12">
+        <div className="flex flex-col justify-center">
+          <p className="text-3xl font-bold">Where?</p>
+          <p className="text-xl">SIS Surabaya @ HR Muhammad</p>
+          <div className="h-6"></div>
+          <p className="text-3xl font-bold">Date & Time</p>
+          <p className="text-xl">5-6 October (Saturday & Sunday)</p>
+          <p className="text-xl">10AM - 6PM Everyday</p>
+        </div>
+        <div className="flex flex-col justify-center">
+          <p className="text-3xl font-bold">Who can join?</p>
+          <p className="text-xl">
+            Anybody under 18 and is in secondary / high school!
+          </p>
+          <div className="h-6"></div>
+          <p className="text-3xl font-bold">What field?</p>
+          <p className="text-xl">People with any skill can join!</p>
+        </div>
+      </div>
+      <div className="max-w-3xl h-[300px] border rounded-lg border-blue-600 mx-auto mb-20 flex flex-col space-y-4 justify-center items-center">
+        <p className="text-3xl font-bold">Register Now For Free</p>
+        <Link href="https://forms.gle/xggVjcUktAzfWbBc6">
+          {" "}
+          <Button>Register Now</Button>
+        </Link>
+      </div>
       <div className="max-w-3xl mx-auto text-3xl">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Fira_Sans } from "next/font/google";
+import { Rubik } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const inter = Fira_Sans({
-  weight: ["200", "300", "400", "500", "600", "700"],
+const inter = Rubik({
+  weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });
 
