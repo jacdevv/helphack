@@ -33,8 +33,17 @@ export default function Home() {
         <div className="h-10"></div>
         <Link href="https://forms.gle/xggVjcUktAzfWbBc6">
           {" "}
-          <Button className="md:w-[400px] bg-[#2563EB] text-white">
+          <Button className="md:w-[400px] bg-[#2563EB] hover:opacity-90 hover:bg-[#2563EB] text-white">
             Register Now
+          </Button>
+        </Link>
+        <Link href="https://drive.google.com/file/d/1qE57-9vD3H_ZUJimUCargdMfkryAov3L/view?usp=sharing">
+          {" "}
+          <Button
+            className="md:w-[400px] bg-[#2563EB] text-white bg-transparent border-[#2563EB] hover:bg-[#2563EB] hover:text-white"
+            variant="outline"
+          >
+            Check our Flyer
           </Button>
         </Link>
       </div>
@@ -70,7 +79,10 @@ export default function Home() {
         <p className="text-3xl md:text-5xl font-bold">Register Now For Free</p>
         <Link href="https://forms.gle/xggVjcUktAzfWbBc6">
           {" "}
-          <Button variant="outline" className="bg-transparent border-white">
+          <Button
+            variant="outline"
+            className="bg-transparent border-[#2563EB] hover:bg-[#2563EB] hover:text-white"
+          >
             Register Now
           </Button>
         </Link>
