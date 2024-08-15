@@ -56,24 +56,34 @@ export default function Home() {
           level can join.
         </p>
       </div>
-      <div className="max-w-3xl min-h-[300px] bg-gradient-to-br from-[#0042A6] to-[#07173F] rounded-lg mx-auto mb-20 grid space-y-4 md:space-y-0 md:grid-cols-2 p-12">
-        <div className="flex flex-col justify-center">
+      <div className="max-w-3xl min-h-[300px] bg-gradient-to-br from-[#0042A6] to-[#07173F] rounded-lg mx-auto mb-20 grid space-y-4 md:space-y-0 md:grid-cols-2 md:grid-rows-2 p-12 gap-y-8">
+        <div>
           <p className="text-3xl font-bold">Where?</p>
-          <p className="text-xl">SIS Surabaya @ HR Muhammad</p>
-          <div className="h-6"></div>
+          <p className="text-xl">
+            SIS Surabaya Jl. Mayjen HR. Muhammad No.371, Sonokwijenan, Kec.
+            Sukomanunggal, Surabaya, Jawa Timur 60189
+          </p>
+        </div>
+        <div>
           <p className="text-3xl font-bold">Date & Time</p>
           <p className="text-xl">5-6 October (Saturday & Sunday)</p>
           <p className="text-xl">10AM - 6PM Everyday</p>
         </div>
-        <div className="flex flex-col justify-center">
+        <div>
           <p className="text-3xl font-bold">Who can join?</p>
           <p className="text-xl">
             Anybody under 18 and is in secondary / high school!
           </p>
-          <div className="h-6"></div>
+        </div>
+        <div>
           <p className="text-3xl font-bold">What field?</p>
           <p className="text-xl">People with any skill can join!</p>
         </div>
+      </div>
+      <div className="max-w-3xl h-[300px] rounded-lg bg-gradient-to-br from-[#0042A6] to-[#07173F] mx-auto mb-20 flex flex-col space-y-4 justify-center items-center px-8 text-center md:px-0">
+        <p className="text-5xl font-bold">Contact</p>
+        <p className="text-3xl">+62 85701833917</p>
+        <p className="text-3xl">main.jac.mil@gmail.com</p>
       </div>
       <div className="max-w-3xl h-[300px] rounded-lg bg-gradient-to-br from-[#0042A6] to-[#07173F] mx-auto mb-20 flex flex-col space-y-4 justify-center items-center px-8 text-center md:px-0">
         <p className="text-3xl md:text-5xl font-bold">Register Now For Free</p>
