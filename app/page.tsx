@@ -69,7 +69,7 @@ export default function Home() {
             </Card>
           </div>
           <div className="h-20"></div>
-          <p>projects </p>
+          <p id="project">projects </p>
           <div className="grid md:grid-cols-3">
             <Card className="bg-transparent border-white">
               <CardHeader>
