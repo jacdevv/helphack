@@ -10,7 +10,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -31,7 +30,7 @@ export default function Home() {
           <div className="h-[500px] flex flex-col space-y-6">
             <p>
               We empower students&apos; future <br />
-              through promoting software
+              directly through software
             </p>
             <Link href="#hackathon">
               <Button
