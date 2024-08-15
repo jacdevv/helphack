@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="mb-20 px-4">
+    <main className="mb-20 px-6">
       <div className="h-screen flex justify-center items-center flex-col space-y-2 my-2">
         <Image
           src="https://utfs.io/f/61c732c6-2b2a-4a1d-a82b-6349c5710e89-rbcs78.jpg"
@@ -19,12 +19,12 @@ export default function Home() {
           height="200"
           className="fixed -z-20 bg-cover opacity-50 w-full h-screen object-cover object-center transform scale-110"
         />
-
-        <div className="text-6xl font-bold text-white text-center pt-12 md:pt-0">
-          NASA Space Apps
+        <Image src="/logo.svg" width="200" height="200" alt="logo" />
+        <div className="text-5xl font-bold text-white text-center pt-12 md:pt-0">
+          NASA Space
           <div></div>Surabaya Hackathon
         </div>
-        <div className="text-3xl font-semibold text-center">
+        <div className="text-2xl font-semibold text-center">
           Compete for a prize pool of IDR 10,000,000
         </div>
         <div className="bg-gradient-to-r from-[#0960E1] to-[#0042A6] rounded-lg p-3 text-2xl text-center">
