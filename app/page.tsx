@@ -82,13 +82,14 @@ export default function Home() {
                 <p>Learn math olympiad for free!</p>
               </CardContent>
               <CardFooter>
-                <Link href="https://www.olimguide.com/"></Link>
-                <Button
-                  className="bg-transparent border-white hover:bg-white hover:text-black"
-                  variant="outline"
-                >
-                  Learn More
-                </Button>
+                <Link href="https://www.olimguide.com/">
+                  <Button
+                    className="bg-transparent border-white hover:bg-white hover:text-black"
+                    variant="outline"
+                  >
+                    Learn More
+                  </Button>
+                </Link>
               </CardFooter>
             </Card>
           </div>
