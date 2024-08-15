@@ -31,16 +31,16 @@ export default function RootLayout({
         >
           <nav className="flex justify-between py-4 px-8 fixed w-full top-0 backdrop-blur-xl z-20">
             <div>
-              <Link href="/">
+              <Link href="/" className="flex gap-2 items-center">
                 <Image src="/favicon.ico" width="50" height="50" alt="logo" />
               </Link>
             </div>
             <div className="flex gap-5 items-center">
-              <Link href="/#project">
-                <p>projects</p>
-              </Link>
               <Link href="/#hackathon">
                 <p>hackathons</p>
+              </Link>
+              <Link href="/#project">
+                <p>projects</p>
               </Link>
             </div>
           </nav>
