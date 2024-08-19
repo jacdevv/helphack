@@ -50,10 +50,10 @@ export default function Home() {
       <div className="max-w-3xl min-h-[300px] bg-gradient-to-br from-[#0042A6] to-[#07173F] rounded-lg mx-auto mb-20 grid space-y-4 md:space-y-0 md:grid-cols-2 p-12">
         <p className="text-4xl font-bold">What will I do?</p>
         <p className="text-xl font-medium">
-          Your team will pick one of 25 project ideas made by NASA. These range from
-          making a story about space to creating a artificial ecosystem! These
-          projects are made with beginners in mind, so anybody at any skill
-          level can join. 
+          Your team will pick one of 25 project ideas made by NASA. These range
+          from making a story about space to creating a artificial ecosystem!
+          These projects are made with beginners in mind, so anybody at any
+          skill level can join.
         </p>
       </div>
       <div className="max-w-3xl min-h-[300px] bg-gradient-to-br from-[#0042A6] to-[#07173F] rounded-lg mx-auto mb-20 grid space-y-4 md:space-y-0 md:grid-cols-2 md:grid-rows-2 p-12 gap-y-8">
@@ -77,13 +77,16 @@ export default function Home() {
         </div>
         <div>
           <p className="text-3xl font-bold">Team size??</p>
-          <p className="text-xl">Teams up to 4 people are allowed, with members from different schools permitted!</p>
+          <p className="text-xl">
+            Teams up to 4 people are allowed, with members from different
+            schools permitted!
+          </p>
         </div>
       </div>
       <div className="max-w-3xl h-[300px] rounded-lg bg-gradient-to-br from-[#0042A6] to-[#07173F] mx-auto mb-20 flex flex-col space-y-4 justify-center items-center px-8 text-center md:px-0">
         <p className="text-5xl font-bold">Contact</p>
         <p className="text-2xl">+62 85701833917</p>
-        <p className="text-2xl">main.jac.mil@gmail.com</p>
+        <p className="text-2xl">25jacques.milton@sisschools.org</p>
       </div>
       <div className="max-w-3xl h-[300px] rounded-lg bg-gradient-to-br from-[#0042A6] to-[#07173F] mx-auto mb-20 flex flex-col space-y-4 justify-center items-center px-8 text-center md:px-0">
         <p className="text-3xl md:text-5xl font-bold">Register Now For Free</p>
