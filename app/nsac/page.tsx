@@ -17,7 +17,7 @@ export default function Home() {
           alt="NASA Space Apps Surabaya"
           width="1920"
           height="200"
-          className="fixed -z-20 bg-cover opacity-50 w-full h-screen object-cover object-center transform scale-90 top-32"
+          className="fixed -z-20 bg-cover opacity-50 w-full h-screen object-cover object-center transform scale-100 top-32"
         />
         <Image src="/logo.svg" width="200" height="200" alt="logo" />
         <div className="text-5xl font-bold text-white text-center pt-12 md:pt-0">
