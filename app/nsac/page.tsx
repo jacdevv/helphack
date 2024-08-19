@@ -13,11 +13,11 @@ export default function Home() {
     <main className="mb-20 px-6">
       <div className="h-screen flex justify-center items-center flex-col space-y-2 my-2">
         <Image
-          src="https://utfs.io/f/61c732c6-2b2a-4a1d-a82b-6349c5710e89-rbcs78.jpg"
+          src="https://utfs.io/f/c691d6fd-335d-49b5-b91b-46c0bc8c398d-uwto7x.jpg"
           alt="NASA Space Apps Surabaya"
           width="1920"
           height="200"
-          className="fixed -z-20 bg-cover opacity-50 w-full h-screen object-cover object-center transform scale-110"
+          className="fixed -z-20 bg-cover opacity-50 w-full h-screen object-cover object-center transform scale-90 top-32"
         />
         <Image src="/logo.svg" width="200" height="200" alt="logo" />
         <div className="text-5xl font-bold text-white text-center pt-12 md:pt-0">
