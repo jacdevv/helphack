@@ -57,7 +57,7 @@ export default function Home() {
                 <p>5-6 October, 2024</p>
               </CardContent>
               <CardFooter>
-                <Link href="/nsac">
+                <Link href="https://www.spaceappssby.xyz/">
                   <Button
                     className="bg-transparent border-white hover:bg-white hover:text-black"
                     variant="outline"
